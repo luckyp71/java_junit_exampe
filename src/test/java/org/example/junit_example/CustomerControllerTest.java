@@ -1,10 +1,11 @@
-package org.example.junit_example.test;
+package org.example.junit_example;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 import org.example.junit_example.controllers.CustomerController;
 import org.example.junit_example.models.Customer;
+
 
 public class CustomerControllerTest {
 	
