@@ -7,7 +7,7 @@ import org.junit.runner.notification.Failure;
 public class CustomerControllerTestRunner {
 
 	   public static void main(String[] args) {
-		   Result result = JUnitCore.runClasses(CustomerControllerTest.class);
+		   Result result = JUnitCore.runClasses(CustomerControllerTestSuite.class);
 				
 		      for (Failure failure : result.getFailures()) {
 		         System.out.println(failure.toString());
