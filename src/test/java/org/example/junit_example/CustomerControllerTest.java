@@ -14,8 +14,8 @@ public class CustomerControllerTest {
 	//Test add customer
 	@Test
 	public void testAddCustomer() {
-		String expectedResult = "Success";
-		String actualResult = custController.addCustomer("Customer 1", "Address 1");
+		String expectedResult = "Success2";
+		String actualResult = custController.addCustomer("Customer 2", "Address 1");
 		assertEquals(expectedResult, actualResult);
 	}
 	
