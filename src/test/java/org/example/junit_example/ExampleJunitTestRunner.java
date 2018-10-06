@@ -4,7 +4,7 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
-public class CustomerControllerTestRunner {
+public class ExampleJunitTestRunner {
 
 	   public static void main(String[] args) {
 		   Result result = JUnitCore.runClasses(ExampleJunitTestSuite.class);
