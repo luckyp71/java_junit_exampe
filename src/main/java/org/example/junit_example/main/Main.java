@@ -18,7 +18,7 @@ public class Main {
 				+"\nEmployee addrress: "+empController.getEmployee().getAddress()
 						+ "\nEmployee salary: "+empController.getEmployee().getSalary());	
 		
-		//Adding space
+		//Add space
 		System.out.println();
 		
 		//Add customer
