@@ -16,13 +16,5 @@ public class CustomerController implements CustomerInterface {
 	@Override
 	public Customer getCustomer() {
 		return this.customer;
-	}
-
-	public static void main (String[] args) {
-		CustomerController customerController = new CustomerController();
-		customerController.addCustomer("Customer 1","Address 1");	
-		Customer customer = customerController.getCustomer();
-		
-		System.out.println("Customer Name: "+customer.getName()+"\nCustomer Address: "+customer.getAddress());
-	}
+	} 
 }

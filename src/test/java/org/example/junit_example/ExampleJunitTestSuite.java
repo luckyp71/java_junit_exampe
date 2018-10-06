@@ -5,10 +5,11 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-	CustomerControllerTest.class
+	CustomerControllerTest.class,
+	TestOnly.class
 })
 
 
-public class CustomerControllerTestSuite {
+public class ExampleJunitTestSuite {
 
 }

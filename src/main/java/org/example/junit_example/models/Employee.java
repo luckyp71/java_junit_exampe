@@ -1,16 +1,18 @@
 package org.example.junit_example.models;
 
-public class Customer {
+public class Employee {
 	
 	private String name;
 	private String address;
+	private double salary;
 	
 	//Default constructor
-	public Customer() {}
+	public Employee() {}
 	
-	public Customer(String name, String address) {
-		this.name = name;
+	public Employee(String name, String address, double salary) {
+		this.name  = name;
 		this.address = address;
+		this.salary = salary;
 	}
 	
 	public String getName() {
@@ -25,5 +27,10 @@ public class Customer {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
 }

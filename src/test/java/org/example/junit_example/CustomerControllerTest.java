@@ -28,5 +28,4 @@ public class CustomerControllerTest {
 
 		assertEquals(expectedResult.getName(), actualResult.getName());
 	}
-	
 }
