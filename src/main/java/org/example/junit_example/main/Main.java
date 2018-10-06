@@ -1,4 +1,7 @@
+package org.example.junit_example.main;
+
 import org.example.junit_example.controllers.*;
+
 
 public class Main {
 
