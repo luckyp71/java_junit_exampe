@@ -9,7 +9,7 @@
 
 
 ## Test Example
-### All test screenshots below are for positive scenarios only ( when actual value equals to expected value)
+### All test screenshots below are for positive scenarios only (actual value equals to expected value)
 
 #### Test All Controllers using Test Suite 
 <div>
